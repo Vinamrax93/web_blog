@@ -9,7 +9,7 @@ __author__ = 'jslvtr'
 from flask import Flask, render_template, request, session, make_response
 
 app = Flask(__name__)  # '__main__'
-app.secret_key = "vinamra"
+app.secret_key = "aditi"
 
 
 @app.route('/')
